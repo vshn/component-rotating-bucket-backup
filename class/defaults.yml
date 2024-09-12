@@ -1,0 +1,4 @@
+parameters:
+  rotating_bucket_backup:
+    =_metadata: {}
+    namespace: syn-rotating-bucket-backup

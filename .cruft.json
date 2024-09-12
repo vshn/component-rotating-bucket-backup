@@ -1,0 +1,31 @@
+{
+  "template": "https://github.com/projectsyn/commodore-component-template.git",
+  "commit": "ba0ed2c8ff147199a748e9ff12cadce32c167fc0",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "name": "rotating-bucket-backup",
+      "slug": "rotating-bucket-backup",
+      "parameter_key": "rotating_bucket_backup",
+      "test_cases": "defaults",
+      "add_lib": "n",
+      "add_pp": "n",
+      "add_golden": "y",
+      "add_matrix": "y",
+      "add_go_unit": "n",
+      "automerge_patch": "y",
+      "automerge_patch_v0": "n",
+      "automerge_patch_regexp_blocklist": "",
+      "automerge_patch_v0_regexp_allowlist": "",
+      "automerge_minor_regexp_allowlist": "",
+      "auto_release": "y",
+      "copyright_holder": "VSHN AG <info@vshn.ch>",
+      "copyright_year": "2024",
+      "github_owner": "vshn",
+      "github_name": "component-rotating-bucket-backup",
+      "github_url": "https://github.com/vshn/component-rotating-bucket-backup",
+      "_template": "https://github.com/projectsyn/commodore-component-template.git"
+    }
+  },
+  "directory": null
+}
