@@ -1,0 +1,627 @@
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-1
+  name: backup-myjob-1
+spec:
+  parameters:
+    bucketName: backup-myjob-1
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-1-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-2
+  name: backup-myjob-2
+spec:
+  parameters:
+    bucketName: backup-myjob-2
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-2-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-3
+  name: backup-myjob-3
+spec:
+  parameters:
+    bucketName: backup-myjob-3
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-3-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-4
+  name: backup-myjob-4
+spec:
+  parameters:
+    bucketName: backup-myjob-4
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-4-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-5
+  name: backup-myjob-5
+spec:
+  parameters:
+    bucketName: backup-myjob-5
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-5-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-6
+  name: backup-myjob-6
+spec:
+  parameters:
+    bucketName: backup-myjob-6
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-6-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-7
+  name: backup-myjob-7
+spec:
+  parameters:
+    bucketName: backup-myjob-7
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-7-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-8
+  name: backup-myjob-8
+spec:
+  parameters:
+    bucketName: backup-myjob-8
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-8-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-9
+  name: backup-myjob-9
+spec:
+  parameters:
+    bucketName: backup-myjob-9
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-9-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-10
+  name: backup-myjob-10
+spec:
+  parameters:
+    bucketName: backup-myjob-10
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-10-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-11
+  name: backup-myjob-11
+spec:
+  parameters:
+    bucketName: backup-myjob-11
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-11-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-12
+  name: backup-myjob-12
+spec:
+  parameters:
+    bucketName: backup-myjob-12
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-12-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-13
+  name: backup-myjob-13
+spec:
+  parameters:
+    bucketName: backup-myjob-13
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-13-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-14
+  name: backup-myjob-14
+spec:
+  parameters:
+    bucketName: backup-myjob-14
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-14-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-15
+  name: backup-myjob-15
+spec:
+  parameters:
+    bucketName: backup-myjob-15
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-15-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-16
+  name: backup-myjob-16
+spec:
+  parameters:
+    bucketName: backup-myjob-16
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-16-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-17
+  name: backup-myjob-17
+spec:
+  parameters:
+    bucketName: backup-myjob-17
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-17-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-18
+  name: backup-myjob-18
+spec:
+  parameters:
+    bucketName: backup-myjob-18
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-18-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-19
+  name: backup-myjob-19
+spec:
+  parameters:
+    bucketName: backup-myjob-19
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-19-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-20
+  name: backup-myjob-20
+spec:
+  parameters:
+    bucketName: backup-myjob-20
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-20-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-21
+  name: backup-myjob-21
+spec:
+  parameters:
+    bucketName: backup-myjob-21
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-21-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-22
+  name: backup-myjob-22
+spec:
+  parameters:
+    bucketName: backup-myjob-22
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-22-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-23
+  name: backup-myjob-23
+spec:
+  parameters:
+    bucketName: backup-myjob-23
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-23-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-24
+  name: backup-myjob-24
+spec:
+  parameters:
+    bucketName: backup-myjob-24
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-24-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-25
+  name: backup-myjob-25
+spec:
+  parameters:
+    bucketName: backup-myjob-25
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-25-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-26
+  name: backup-myjob-26
+spec:
+  parameters:
+    bucketName: backup-myjob-26
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-26-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-27
+  name: backup-myjob-27
+spec:
+  parameters:
+    bucketName: backup-myjob-27
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-27-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-28
+  name: backup-myjob-28
+spec:
+  parameters:
+    bucketName: backup-myjob-28
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-28-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-29
+  name: backup-myjob-29
+spec:
+  parameters:
+    bucketName: backup-myjob-29
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-29-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-30
+  name: backup-myjob-30
+spec:
+  parameters:
+    bucketName: backup-myjob-30
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-30-bucket-secret
+---
+apiVersion: appcat.vshn.io/v1
+kind: ObjectBucket
+metadata:
+  annotations: {}
+  labels:
+    name: backup-myjob-31
+  name: backup-myjob-31
+spec:
+  parameters:
+    bucketName: backup-myjob-31
+    region: lpg
+  writeConnectionSecretToRef:
+    name: backup-myjob-31-bucket-secret
+---
+apiVersion: v1
+data: {}
+kind: Secret
+metadata:
+  annotations: {}
+  labels:
+    name: myjob-source
+  name: myjob-source
+stringData:
+  SOURCE_ACCESSKEY: accesskey
+  SOURCE_BUCKET: mytestbucket
+  SOURCE_SECRETKEY: secretkey
+  SOURCE_URL: https://objects.rma.example.com
+type: Opaque
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: myjob
+spec:
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 4
+      template:
+        spec:
+          containers:
+            - args:
+                - -c
+                - /script/backup.sh
+              command:
+                - /bin/bash
+              envFrom:
+                - secretRef:
+                    name: myjob-source
+                - prefix: BUCKET_1_
+                  secretRef:
+                    name: backup-myjob-1-bucket-secret
+                - prefix: BUCKET_2_
+                  secretRef:
+                    name: backup-myjob-2-bucket-secret
+                - prefix: BUCKET_3_
+                  secretRef:
+                    name: backup-myjob-3-bucket-secret
+                - prefix: BUCKET_4_
+                  secretRef:
+                    name: backup-myjob-4-bucket-secret
+                - prefix: BUCKET_5_
+                  secretRef:
+                    name: backup-myjob-5-bucket-secret
+                - prefix: BUCKET_6_
+                  secretRef:
+                    name: backup-myjob-6-bucket-secret
+                - prefix: BUCKET_7_
+                  secretRef:
+                    name: backup-myjob-7-bucket-secret
+                - prefix: BUCKET_8_
+                  secretRef:
+                    name: backup-myjob-8-bucket-secret
+                - prefix: BUCKET_9_
+                  secretRef:
+                    name: backup-myjob-9-bucket-secret
+                - prefix: BUCKET_10_
+                  secretRef:
+                    name: backup-myjob-10-bucket-secret
+                - prefix: BUCKET_11_
+                  secretRef:
+                    name: backup-myjob-11-bucket-secret
+                - prefix: BUCKET_12_
+                  secretRef:
+                    name: backup-myjob-12-bucket-secret
+                - prefix: BUCKET_13_
+                  secretRef:
+                    name: backup-myjob-13-bucket-secret
+                - prefix: BUCKET_14_
+                  secretRef:
+                    name: backup-myjob-14-bucket-secret
+                - prefix: BUCKET_15_
+                  secretRef:
+                    name: backup-myjob-15-bucket-secret
+                - prefix: BUCKET_16_
+                  secretRef:
+                    name: backup-myjob-16-bucket-secret
+                - prefix: BUCKET_17_
+                  secretRef:
+                    name: backup-myjob-17-bucket-secret
+                - prefix: BUCKET_18_
+                  secretRef:
+                    name: backup-myjob-18-bucket-secret
+                - prefix: BUCKET_19_
+                  secretRef:
+                    name: backup-myjob-19-bucket-secret
+                - prefix: BUCKET_20_
+                  secretRef:
+                    name: backup-myjob-20-bucket-secret
+                - prefix: BUCKET_21_
+                  secretRef:
+                    name: backup-myjob-21-bucket-secret
+                - prefix: BUCKET_22_
+                  secretRef:
+                    name: backup-myjob-22-bucket-secret
+                - prefix: BUCKET_23_
+                  secretRef:
+                    name: backup-myjob-23-bucket-secret
+                - prefix: BUCKET_24_
+                  secretRef:
+                    name: backup-myjob-24-bucket-secret
+                - prefix: BUCKET_25_
+                  secretRef:
+                    name: backup-myjob-25-bucket-secret
+                - prefix: BUCKET_26_
+                  secretRef:
+                    name: backup-myjob-26-bucket-secret
+                - prefix: BUCKET_27_
+                  secretRef:
+                    name: backup-myjob-27-bucket-secret
+                - prefix: BUCKET_28_
+                  secretRef:
+                    name: backup-myjob-28-bucket-secret
+                - prefix: BUCKET_29_
+                  secretRef:
+                    name: backup-myjob-29-bucket-secret
+                - prefix: BUCKET_30_
+                  secretRef:
+                    name: backup-myjob-30-bucket-secret
+                - prefix: BUCKET_31_
+                  secretRef:
+                    name: backup-myjob-31-bucket-secret
+              image: quay.io/minio/mc:RELEASE.2024-09-09T07-53-10Z
+              name: backup
+              resources: {}
+              volumeMounts:
+                - mountPath: /script
+                  name: script
+          restartPolicy: Never
+          terminationGracePeriodSeconds: 30
+          volumes:
+            - configMap:
+                defaultMode: 511
+                name: rotating-bucket-backup
+              name: script
+  schedule: 7 1 * * *
+  successfulJobsHistoryLimit: 3
+  suspend: false
+---
+apiVersion: v1
+data:
+  backup.sh: |
+    #!/bin/bash
+
+    set -eu
+
+    day=$(date +%d)
+
+    echo "It is day ${day} of the month. My backup journey will never end!"
+
+    # Check if Secrets are loaded
+    test -z "${SOURCE_URL}" && echo "SOURCE_URL is not set!" && exit 1
+    test -z "${SOURCE_ACCESSKEY}" && echo "SOURCE_ACCESSKEY is not set!" && exit 1
+    test -z "${SOURCE_SECRETKEY}" && echo "SOURCE_SECRETKEY is not set!" && exit 1
+    test -z "${SOURCE_BUCKET}" && echo "SOURCE_BUCKET is not set!" && exit 1
+
+    var_destination_url="BUCKET_${day}_ENDPOINT_URL"
+    test -z "${!var_destination_url}" && echo "${var_destination_url} is not set!" && exit 1
+    var_destination_accesskey="BUCKET_${day}_AWS_ACCESS_KEY_ID"
+    test -z "${!var_destination_accesskey}" && echo "${var_destination_accesskey} is not set!" && exit 1
+    var_destination_secretkey="BUCKET_${day}_AWS_SECRET_ACCESS_KEY"
+    test -z "${!var_destination_secretkey}" && echo "${var_destination_secretkey} is not set!" && exit 1
+
+    # Set the destination Bucket based on the day
+    var_destination_bucket="BUCKET_${day}_BUCKET_NAME"
+    test -z "${!var_destination_bucket}" && echo "${var_destination_bucket} is not set!" && exit 1
+    destination_bucket="${!var_destination_bucket}"
+
+    # Configure Source and Destination Bucket for minio cli
+    mc --config-dir /tmp/ alias set source "${SOURCE_URL}" "${SOURCE_ACCESSKEY}" "${SOURCE_SECRETKEY}" --api S3v4
+    mc --config-dir /tmp/ alias set destination "${!var_destination_url}" "${!var_destination_accesskey}" "${!var_destination_secretkey}" --api S3v4
+
+    # check if source bucket exists
+    mc --config-dir /tmp/ ls source | grep -q "${SOURCE_BUCKET}" || ( echo "Bucket ${SOURCE_BUCKET} does not exists!" && exit 1)
+
+    # check if destination bucket exists
+    mc --config-dir /tmp/ ls destination | grep -q "${destination_bucket}" || ( echo "Bucket ${destination_bucket} does not exists!" && exit 1)
+
+    # Mirror source bucket into the destination bucket
+    echo "Mirror ${SOURCE_BUCKET} bucket to ${destination_bucket} bucket"
+    mc --config-dir /tmp/ mirror "source/${SOURCE_BUCKET}" "destination/${destination_bucket}" --overwrite --remove
+kind: ConfigMap
+metadata:
+  annotations: {}
+  labels:
+    name: rotating-bucket-backup
+  name: rotating-bucket-backup

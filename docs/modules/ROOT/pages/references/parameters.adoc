@@ -11,6 +11,87 @@ default:: `syn-rotating-bucket-backup`
 The namespace in which to deploy this component.
 
 
+== `images`
+
+[horizontal]
+type:: dict
+
+The images to use for the component.
+
+
+== `jobs`
+
+[horizontal]
+type:: dict
+default:: `{}`
+example::
++
+[source,yaml]
+----
+    jobs:
+      myjob:
+        source_bucket:
+          name: mytestbucket
+          accesskey: accesskey
+          secretkey: secretkey
+          url: https://objects.rma.example.com
+        target_bucket_tmpl:
+          type: appcat
+          parameters:
+            region: lpg
+----
+
+The backup jobs to run. The key is the name of the job. The value is a dictionary with the following keys:
+
+
+=== `source_bucket.name`
+
+[horizontal]
+type:: string
+
+The name of the source bucket.
+
+
+=== `source_bucket.accesskey`
+
+[horizontal]
+type:: string
+
+The access key for the source bucket.
+
+
+=== `source_bucket.secretkey`
+
+[horizontal]
+type:: string
+
+The secret key for the source bucket.
+
+
+=== `source_bucket.url`
+
+[horizontal]
+type:: string
+
+The URL of the source bucket.
+
+
+=== `target_bucket_tmpl.type`
+
+[horizontal]
+type:: string
+
+The type of the target bucket. Currently, only `appcat` is supported.
+
+
+=== `target_bucket_tmpl.parameters`
+
+[horizontal]
+type:: dict
+
+The parameters for the target bucket. The keys and values depend on the type of the target bucket.
+
+
 == Example
 
 [source,yaml]

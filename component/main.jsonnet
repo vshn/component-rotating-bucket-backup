@@ -7,4 +7,6 @@ local params = inv.parameters.rotating_bucket_backup;
 
 // Define outputs below
 {
+  '00_namespace': kube.Namespace(params.namespace),
+  '10_jobs': (import 'jobs.libsonnet'),
 }

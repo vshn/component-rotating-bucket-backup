@@ -2,3 +2,14 @@ parameters:
   rotating_bucket_backup:
     =_metadata: {}
     namespace: syn-rotating-bucket-backup
+
+    images:
+      mc:
+        registry: quay.io
+        repository: minio/mc
+        tag: 'RELEASE.2024-09-09T07-53-10Z'
+
+    schedule:
+      hour: 1
+
+    jobs: {}
