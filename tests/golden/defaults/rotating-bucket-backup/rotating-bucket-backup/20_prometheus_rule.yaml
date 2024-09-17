@@ -1,0 +1,35 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  annotations: {}
+  labels:
+    name: rotating-bucket-backup-alerts
+  name: rotating-bucket-backup-alerts
+  namespace: syn-rotating-bucket-backup
+spec:
+  groups:
+    - name: rotating-bucket-backup-alerts
+      rules:
+        - alert: RotatingClusterBackup_JobCompletion_12h
+          annotations:
+            description: Job {{ $labels.namespace }}/{{ $labels.job_name }} is taking
+              more than 12 hours to complete. Job did not complete in time
+          expr: |
+            kube_job_spec_completions{namespace="syn-rotating-bucket-backup"} - kube_job_status_succeeded{namespace="syn-rotating-bucket-backup"} > 0
+          for: 12h
+          labels:
+            severity: warning
+            syn: 'true'
+            syn_component: rotating-bucket-backup
+        - alert: RotatingClusterBackup_JobFailed
+          annotations:
+            description: Job {{ $labels.namespace }}/{{ $labels.job_name }} failed
+              to complete. Removing failed job after investigation should clear this
+              alert.
+          expr: |
+            kube_job_failed{namespace="syn-rotating-bucket-backup"} > 0
+          for: 15m
+          labels:
+            severity: warning
+            syn: 'true'
+            syn_component: rotating-bucket-backup

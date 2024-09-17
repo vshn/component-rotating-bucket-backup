@@ -1,6 +1,10 @@
 # Commodore Component: rotating-bucket-backup
 
-This is a [Commodore][commodore] Component for rotating-bucket-backup.
+This is a [Commodore][commodore] Component to manage S3 bucket backups.
+
+The component creates a backup of an S3 bucket and stores it in another S3 bucket.
+The component creates a new bucket for each day of the month and stores the backup in the corresponding bucket.
+It then rotates by overwriting the corresponding bucket on the same day of the month.
 
 This repository is part of Project Syn.
 For documentation on Project Syn and this component, see [syn.tools](https://syn.tools).

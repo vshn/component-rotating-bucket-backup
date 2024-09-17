@@ -1,3 +1,15 @@
 # Overwrite parameters here
 
-# parameters: {...}
+parameters:
+  rotating_bucket_backup:
+    jobs:
+      myjob:
+        source_bucket:
+          name: mytestbucket
+          accesskey: accesskey
+          secretkey: secretkey
+          url: https://objects.rma.example.com
+        target_bucket_tmpl:
+          type: appcat
+          parameters:
+            region: lpg

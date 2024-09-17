@@ -2,3 +2,43 @@ parameters:
   rotating_bucket_backup:
     =_metadata: {}
     namespace: syn-rotating-bucket-backup
+    namespace_metadata:
+      annotations: {}
+      labels: {}
+
+    images:
+      mc:
+        registry: quay.io
+        repository: minio/mc
+        # note: newer release are based on RHEL9 containers which do not include grep
+        tag: 'RELEASE.2022-11-07T23-47-39Z'
+
+    schedule:
+      hour: 1
+
+    jobs: {}
+
+    monitoring:
+      enabled: true
+      alerts:
+        RotatingClusterBackup_JobFailed:
+          enabled: true
+          rule:
+            annotations:
+              description: Job {{ $labels.namespace }}/{{ $labels.job_name }} failed to complete. Removing failed job after investigation should clear this alert.
+            expr: |
+              kube_job_failed{namespace="${rotating_bucket_backup:namespace}"} > 0
+            for: 15m
+            labels:
+              severity: warning
+
+        RotatingClusterBackup_JobCompletion_12h:
+          enabled: true
+          rule:
+            annotations:
+              description: Job {{ $labels.namespace }}/{{ $labels.job_name }} is taking more than 12 hours to complete. Job did not complete in time
+            expr: |
+              kube_job_spec_completions{namespace="${rotating_bucket_backup:namespace}"} - kube_job_status_succeeded{namespace="${rotating_bucket_backup:namespace}"} > 0
+            for: 12h
+            labels:
+              severity: warning
