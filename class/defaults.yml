@@ -7,7 +7,8 @@ parameters:
       mc:
         registry: quay.io
         repository: minio/mc
-        tag: 'RELEASE.2024-09-09T07-53-10Z'
+        # note: newer release are based on RHEL9 containers which do not include grep
+        tag: 'RELEASE.2022-11-07T23-47-39Z'
 
     schedule:
       hour: 1

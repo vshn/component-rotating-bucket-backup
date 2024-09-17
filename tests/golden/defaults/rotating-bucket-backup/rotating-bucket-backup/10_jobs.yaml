@@ -622,7 +622,7 @@ spec:
                 - prefix: BUCKET_31_
                   secretRef:
                     name: backup-myjob-31-bucket-secret
-              image: quay.io/minio/mc:RELEASE.2024-09-09T07-53-10Z
+              image: quay.io/minio/mc:RELEASE.2022-11-07T23-47-39Z
               name: backup
               resources: {}
               volumeMounts:
