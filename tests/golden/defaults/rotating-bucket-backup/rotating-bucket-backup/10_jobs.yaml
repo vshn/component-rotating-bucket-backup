@@ -1,7 +1,9 @@
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-1
   name: backup-myjob-1
@@ -15,7 +17,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-2
   name: backup-myjob-2
@@ -29,7 +33,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-3
   name: backup-myjob-3
@@ -43,7 +49,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-4
   name: backup-myjob-4
@@ -57,7 +65,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-5
   name: backup-myjob-5
@@ -71,7 +81,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-6
   name: backup-myjob-6
@@ -85,7 +97,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-7
   name: backup-myjob-7
@@ -99,7 +113,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-8
   name: backup-myjob-8
@@ -113,7 +129,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-9
   name: backup-myjob-9
@@ -127,7 +145,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-10
   name: backup-myjob-10
@@ -141,7 +161,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-11
   name: backup-myjob-11
@@ -155,7 +177,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-12
   name: backup-myjob-12
@@ -169,7 +193,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-13
   name: backup-myjob-13
@@ -183,7 +209,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-14
   name: backup-myjob-14
@@ -197,7 +225,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-15
   name: backup-myjob-15
@@ -211,7 +241,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-16
   name: backup-myjob-16
@@ -225,7 +257,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-17
   name: backup-myjob-17
@@ -239,7 +273,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-18
   name: backup-myjob-18
@@ -253,7 +289,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-19
   name: backup-myjob-19
@@ -267,7 +305,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-20
   name: backup-myjob-20
@@ -281,7 +321,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-21
   name: backup-myjob-21
@@ -295,7 +337,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-22
   name: backup-myjob-22
@@ -309,7 +353,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-23
   name: backup-myjob-23
@@ -323,7 +369,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-24
   name: backup-myjob-24
@@ -337,7 +385,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-25
   name: backup-myjob-25
@@ -351,7 +401,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-26
   name: backup-myjob-26
@@ -365,7 +417,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-27
   name: backup-myjob-27
@@ -379,7 +433,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-28
   name: backup-myjob-28
@@ -393,7 +449,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-29
   name: backup-myjob-29
@@ -407,7 +465,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-30
   name: backup-myjob-30
@@ -421,7 +481,9 @@ spec:
 apiVersion: appcat.vshn.io/v1
 kind: ObjectBucket
 metadata:
-  annotations: {}
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
   labels:
     name: backup-myjob-31
   name: backup-myjob-31

@@ -20,6 +20,12 @@ local jobs = std.flattenArrays(std.mapWithIndex(function(jobI, job)
     local jobParams = params.jobs[job];
     assert jobParams.target_bucket_tmpl.type == 'appcat' : 'Currently only buckets with type `appcat` are supported';
     kube._Object('appcat.vshn.io/v1', 'ObjectBucket', bucketName) {
+      metadata+: {
+        annotations: {
+          'argocd.argoproj.io/compare-options': 'IgnoreExtraneous',
+          'argocd.argoproj.io/sync-options': 'Prune=false',
+        },
+      },
       spec+: {
         parameters: {
           bucketName: bucketName,
