@@ -11,6 +11,21 @@ default:: `syn-rotating-bucket-backup`
 The namespace in which to deploy this component.
 
 
+== `namespace_metadata`
+
+[horizontal]
+type:: dict
+default::
++
+[source,yaml]
+----
+annotations: {}
+labels: {}
+----
+
+Allows adding additional annotations and labels to the namespace.
+
+
 == `images`
 
 [horizontal]
@@ -90,6 +105,60 @@ The type of the target bucket. Currently, only `appcat` is supported.
 type:: dict
 
 The parameters for the target bucket. The keys and values depend on the type of the target bucket.
+
+
+== `monitoring.enabled`
+
+[horizontal]
+type:: boolean
+default:: `true`
+
+Controls if `PrometheusRule` objects are created.
+The alerts expect `kube-state-metrics` to be running in the cluster.
+
+
+== `monitoring.alerts`
+
+[horizontal]
+type:: dict
+default:: See https://github.com/vshn/component-rotating-bucket-backup/blob/master/class/defaults.yml[defaults.yml]
+example::
++
+[source,yaml]
+----
+alerts:
+  MyAlert:
+    enabled: true
+    rule:
+      expr: |
+        up{namespace="${rotating_bucket_backup:namespace}"} == 0
+      for: 5m
+      labels:
+        severity: warning
+      annotations:
+        summary: "Instance {{ $labels.instance }} down"
+        description: "{{ $labels.instance }} of job {{ $labels.job }} has been down for more than 5 minutes."
+----
+
+The alerts to configure.
+The key is the name of the alert.
+The value is a dictionary with the following keys:
+
+=== `enabled`
+
+[horizontal]
+type:: boolean
+
+Controls if the alert is enabled.
+
+
+=== `rule`
+
+[horizontal]
+type:: dict
+
+The Prometheus rule for the alert.
+The keys and values depend on the alert.
 
 
 == Example
