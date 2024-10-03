@@ -2,7 +2,7 @@
 
 set -eu
 
-day=$(date +%d)
+day=$(date +%-d)
 
 echo "It is day ${day} of the month. My backup journey will never end!"
 
