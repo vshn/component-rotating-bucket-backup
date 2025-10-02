@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/projectsyn/commodore-component-template.git",
-  "commit": "ba0ed2c8ff147199a748e9ff12cadce32c167fc0",
+  "commit": "84a7c63ca26492da555344c23ccddac302ba0bb2",
   "checkout": "main",
   "context": {
     "cookiecutter": {
@@ -24,7 +24,8 @@
       "github_owner": "vshn",
       "github_name": "component-rotating-bucket-backup",
       "github_url": "https://github.com/vshn/component-rotating-bucket-backup",
-      "_template": "https://github.com/projectsyn/commodore-component-template.git"
+      "_template": "https://github.com/projectsyn/commodore-component-template.git",
+      "_commit": "84a7c63ca26492da555344c23ccddac302ba0bb2"
     }
   },
   "directory": null

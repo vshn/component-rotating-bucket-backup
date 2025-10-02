@@ -1,6 +1,7 @@
 parameters:
   rotating_bucket_backup:
-    =_metadata: {}
+    =_metadata:
+      multi_tenant: true
     namespace: syn-rotating-bucket-backup
     namespace_metadata:
       annotations: {}
